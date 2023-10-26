@@ -5,13 +5,14 @@ import HomePage from './components/HomePage'
 import About from './components/About'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 
 function App() {
   
 
   return (
-    <main>
+    <main className='app-container'>
       <Navbar/>
       <Routes>
         <Route path='/' element={<HomePage/>} />
@@ -19,6 +20,7 @@ function App() {
         <Route path='/projects' element={<Projects/>} />
         <Route path='/contact' element={<Contact/>} />
       </Routes>
+      <Footer/>
     </main>
   )
 }

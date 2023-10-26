@@ -1,0 +1,45 @@
+.footer-container{
+  height: 60px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.534);
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+}
+
+.footer-iconContainer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+}
+
+.footer-iconContainer span{
+  border: 1px solid rgb(172, 172, 172);
+  height: 0px;
+  width: 30vw;
+}
+
+.footer-socialContainer{
+  display: flex;
+  gap: 1.2rem;
+}
+
+.github{
+  background: white;
+  border-radius: 50%;
+}
+
+.footer-socialContainer img{
+  width: 25px;
+}
+
+.footer-container h4{
+  font-size: 10px;
+  color: rgb(172, 172, 172);
+}

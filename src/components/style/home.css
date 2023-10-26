@@ -4,7 +4,53 @@
   align-items: center;
 }
 
-.home-container h2:nth-child(4){
-  color: rgb(21, 252, 0);
-  font-size: 3rem;
+.home-textContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5rem;
 }
+
+.home-textContainer div{
+  display: flex;
+  gap: .5rem;
+}
+
+.home-container div h2:nth-child(2){
+  color: rgb(255, 72, 0);
+  font-size: 2rem;
+}
+
+.home-container h2:nth-of-type(2){
+  color:  rgba(204, 202, 202, 0.897);
+  font-size: 1.8rem;
+}
+.home-container h2:nth-of-type(3){
+  font-size: 1.2rem;
+  color: rgb(255, 72, 0);
+}
+
+
+
+.home-image{
+  width: 80%;
+  object-fit: contain;
+}
+
+.home-btn {
+  font-size: 1rem;
+  border-radius: 1rem;
+  padding: .5rem;
+  margin-top: 2rem;
+  background-color: #444ED4ff;
+  color: white;
+  font-weight: bold;
+  transition: .8s ease;
+}
+
+.home-btn:hover{
+  background-color: rgb(91, 2, 173);
+  color: white;
+ 
+}
+
