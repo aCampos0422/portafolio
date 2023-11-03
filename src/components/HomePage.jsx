@@ -53,7 +53,7 @@ const HomePage = () => {
       </div>
   
       <button className='home-btn'>
-        <a href='/a.pdf' download={''}>Download CV</a>
+          Contactame
       </button>
     
     </main>

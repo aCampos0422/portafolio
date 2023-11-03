@@ -29,13 +29,13 @@ const Navbar = () => {
       
       <ul className={navOff}>
         <Link to='/about'>
-          <li>About</li>
+          <li>Sobre mi</li>
         </Link>
         <Link to='/projects'>
-          <li>Projects</li>
+          <li>Proyectos</li>
         </Link>
         <Link to='/contact'>
-          <li>Contact</li>
+          <li>Contacto</li>
         </Link>
       </ul>
   

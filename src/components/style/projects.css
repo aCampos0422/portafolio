@@ -1,0 +1,72 @@
+.project-container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.project-titleSection{
+  color: rgb(29, 231, 10);
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+.project-cardContainer{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.project-card{
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid rgb(29, 231, 10);
+  border-radius: 1.2rem;
+  gap: 1.2rem;
+  padding: 1rem;
+  transition: transform .5s ease;
+  margin-top: 1rem
+}
+
+.project-card:hover{
+  transform: scale(1.1);
+}
+
+.project-cardImage{
+  width: 100%;
+  border-radius: 1rem;
+}
+.project-cardDescrip{
+  color: rgb(189, 187, 187);
+  text-align: start;
+}
+
+.project-btnContainer{
+  width: 120px;
+  height: 30px;
+  background: linear-gradient(315deg, hsla(159, 82%, 55%, 1) 0%, rgb(17, 140, 151) 62%, hsla(206, 98%, 48%, 1) 100%);
+  border-radius: 1.2rem;
+}
+
+.project-btnLink{
+  font-weight: bold;
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+}
+
+.project-iconTech{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.project-iconTech img{
+  width: 50px;
+}
